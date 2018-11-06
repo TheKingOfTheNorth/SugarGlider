@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:monkey="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:padding="10dp"
+    android:background="#488dd4"
+
+    >
+    <com.example.sugarglider.MiClockView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        monkey:backgroundColor="#488dd4"
+        monkey:darkColor="#80ffffff"
+        monkey:lightColor="#ffffff"
+        monkey:textSize="14sp" />
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="时现"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:padding="6dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/application"
+        android:icon="@drawable/what"
+        android:title="关于应用"
+        />
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/new_"
+        android:title="检查更新"/>
+    <item
+        android:id="@+id/connection"
+        android:icon="@drawable/connection"
+        android:title="联系作者"
+        />
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/help"
+        android:title="救助毛孩子(自愿)"/>
+</group>
+</menu>
